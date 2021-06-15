@@ -35,6 +35,84 @@ Learnings:
 23. Method ( impl StructureName { fn functionName(&self) { body}} Calling: structInstance.functionName())
 24. Enums (declare enum, use enum as parameter to function, moving from stuct to enum (enum IpAddr { v4(String, v6(String)}
 25. Option Enum (enum Option<T> { Some(T), None, } [**Relook**]
+26.definign enum, using enum in a structure. enum with string values 
+Eg: enum IpAddr {
+	v4(String),
+	v6(String),
+}
 
-  <<Yet to explore remaining part of rust>>
+27. option enum:
+   enum Option<T> {
+	Some(T),
+	None,
+	}
+ 28. match control flow operator.
+   
+enum Bodytype {
+	Fit,
+        Obess,
+	SizeZero,
+	Flexible,
+	}
+
+fn daily_workout(bodyType : Bodytype) {
+        match bodyType{
+          BodyType::Fit => {
+              println!("Thats what you needed {}",name =pavi);
+              }
+          BodyType::Obess => {
+	      println!("Please love your body! {}",pavi);
+	      }
+          BodyType::SizeZero => {
+	      println!("Keep dreaming {}",pavi);
+              }
+          BodyType::Flexible => {
+              println!("Much needed for survival {}",pavi);
+	      }
+
+      }
+
+fn main() {
+ let mut days_counter = 12;
+ let total_no_days = loop{ 
+	days_counter += 1; 
+	daily_workout(BodyType::Obess);
+        if days_counter == 100 {
+           daily_workout(BodyType::Fit);
+           break;
+	}
+	days_counter,
+      };
+println!(" The of no days {}", total_no_days);
+  
+}
+
+29. replace match with (if let)
+30. Modules creation (lib.rs can resuable modules, it should be public:pub)
+   absolute path:
+   relative path, Relative Path with super, 
+   struct , function inside mod should be public.
+    use keyword, including crates. eg: use std::collections::HashMap, making pub key word.
+    as, use std::io::Result as IoResult;
+    nested use use std::{cmp::Ordering, io};
+    Glob operator: use std::collections::*;
+
+
+31. Collections : Vector( Vec::new(), vec![1,2,3,4]) (mutable & immutable does not support)
+		 String( create new string, push_str("string1),
+		 Concat string (let s3 = s1 + &s2, cannot be indexed
+		 slicing strings
+  		 HashMap(key,value) [ let mut scores = HashMap::new()	
+		 entry & using .or_insert() -->use to insert hash if only key does not exist. 
+		 eg: scores.entry(String::from("Blue")).or_insert(50);
+
+32.Error handling: 
+		panic!, RUST_BACKTRACE=1 cargo run
+		enum Result<T,E> {
+			Ok(T),
+			Err(E),
+		}
+    
+ 
+
   
