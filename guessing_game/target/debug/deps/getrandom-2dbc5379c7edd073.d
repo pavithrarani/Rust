@@ -1,0 +1,11 @@
+D:\personal\Repo\Rust\hello_cargo\src\variables\src\guessing_game\target\debug\deps\getrandom-2dbc5379c7edd073.rmeta: C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\lib.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\error.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\util.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\error_impls.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\windows.rs
+
+D:\personal\Repo\Rust\hello_cargo\src\variables\src\guessing_game\target\debug\deps\libgetrandom-2dbc5379c7edd073.rlib: C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\lib.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\error.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\util.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\error_impls.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\windows.rs
+
+D:\personal\Repo\Rust\hello_cargo\src\variables\src\guessing_game\target\debug\deps\getrandom-2dbc5379c7edd073.d: C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\lib.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\error.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\util.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\error_impls.rs C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\windows.rs
+
+C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\lib.rs:
+C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\error.rs:
+C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\util.rs:
+C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\error_impls.rs:
+C:\Users\z003nscf\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.1.16\src\windows.rs:
